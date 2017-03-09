@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "script": "server.js",
+  "ignore": ["*.test.js", "fixtures/*"],
+  "ext": "js html"
+}
