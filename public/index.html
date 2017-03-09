@@ -17,18 +17,18 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
   <!-- This tells the browser how to read the document. -->
   <meta charset="utf-8">
   <!-- Tells the browser what the title of this page should be. -->
-  <title>Eddie Naff - Resume</title>
+  <title>Eddie Naff - Portfolio</title>
   <!-- bower:css -->
-  <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="public/bower_components/fontawesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="public/bower_components/colors/css/colors.css" />
-  <!-- <link rel="stylesheet" href="public/bower_components/min-max-font-size/css/styles.css" /> -->
+  <link rel="stylesheet" href="bower_components/colors/css/colors.css" />
+  <!-- <link rel="stylesheet" href="bower_components/min-max-font-size/css/styles.css" /> -->
   <!-- endbower -->
   <!-- Load the page styles. -->
-  <link href="public/css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
   <!-- Keep my changes to css here -->
-  <link rel="stylesheet" href="public/css/more_style.css" />
+  <link rel="stylesheet" href="css/more_style.css" />
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
   Document Object Model (DOM). The DOM is a tree that contains information
@@ -42,9 +42,9 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
   the DOM. jQuery is fast and easy to use, but it doesn"t do anything
   you can"t accomplish with vanilla (regular) JavaScript.
   -->
-  <script src="public/js/jQuery.js"></script>
+  <script src="js/jQuery.js"></script>
   <!-- More on helper.js in the class -->
-  <script src="public/js/helper.js"></script>
+  <script src="js/helper.js"></script>
   <!--
   Uncomment the <script> tag below when you"re ready to add an interactive
   Google Map to your resume!
@@ -78,9 +78,6 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="resumeSections" class="nav navbar-nav">
               <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
                 <a href="#work-experience">Work Experience</a>
               </li>
               <!-- <li>
@@ -88,6 +85,9 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
               </li> -->
               <li>
                 <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#about">Contact</a>
               </li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you"ll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="public/js/resumeBuilder.js"></script>
+  <script src="js/resumeBuilder.js"></script>
   <!--
   These scripts are written in JavaScript. You"ll be breaking them down as part of
   a quiz. Essentially, the next few lines are checking to see if you have not
@@ -201,14 +201,14 @@ need to load. You"ll see a lot of <link>s to CSS files for styles and
   }
   </script>
   <!-- bower:js -->
-  <script src="public/bower_components/jquery/dist/jquery.js"></script>
-  <script src="public/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- <script src="public/bower_components/min-max-font-size/js/mm-fontsize.js"></script> -->
-  <script src="public/bower_components/trianglify/dist/trianglify.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- <script src="bower_components/min-max-font-size/js/mm-fontsize.js"></script> -->
+  <script src="bower_components/trianglify/dist/trianglify.min.js"></script>
   <!-- endbower -->
   <!-- <script src="js/carbonation.js"></script> -->
-  <script src="public/js/canvasSizer.js"></script>
-  <script src="public/js/scrollWidthDebugger.js"></script>
+  <script src="js/canvasSizer.js"></script>
+  <script src="js/scrollWidthDebugger.js"></script>
 </body>
 
 </html>

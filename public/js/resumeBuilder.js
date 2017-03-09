@@ -8,7 +8,7 @@
             "twitter": "@theednaffattack",
             "location": "Richmond district, San Francisco, CA"
         },
-        "bioPic": "public/img/me_again.jpg",
+        "bioPic": "img/me_again.jpg",
         "welcomeMessage": "<h2>I build websites and web apps that are <em>lean, functional,</em> and <em>stylish</em>.</h2>" +
         "<p class='welcome-message'>From single page web sites to large scale web apps and gaming applications, I enjoy designing and " +
         "developing the visible portion of the web.</p> <p class='welcome-message'>Feel free to poke around at some of my Github Repos and " +
