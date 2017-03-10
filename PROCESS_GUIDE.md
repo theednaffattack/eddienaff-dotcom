@@ -1,4 +1,11 @@
 # Current Deployment Cheatsheet
+This is my first crack at an opinonated development setup.  In time I'll turn this into some kind of process doc.
+
+Dev Environment
+---
+* MacBook Pro
+* Docker **_coming soon_**
+
 Scaffolds / Boilerplates
 ---
 * [Clementine FCC Boilerplate - Pure Express] (http://www.clementinejs.com/versions/fcc.html)
@@ -7,7 +14,17 @@ Scaffolds / Boilerplates
 
 Backend
 ---
-* [Stand up a node (easy node / Express) server for production] (https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04#manage-application-with-pm2)
+* [Digital Ocean] (https://cloud.digitalocean.com/droplets?i=661ac0)
+  1. Zero to Serving
+    1. [Initial Server Setup Guide for Ubuntu 16.04] (https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04)
+
+    2. [Stand up a Node (Express) server for production Ubuntu 16.04] (https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04#manage-application-with-pm2)
+
+    3. [Let's Encrypt Auto-Renewal] (https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
+
+    4. [How to Use Cron to Automate Tasks in a VPS] (https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-on-a-vps)
+
+* [Heroku] (http://eddienaff.com) **_coming soon_**
 
 Version Control: Git & Github
 ---
