@@ -42,6 +42,12 @@ var run = {
         },
         css: {
             cssnano: false
+        },
+        connect: {
+            connectPlug: false
+        },
+        injectVendor: {
+            wiredep: false
         }
     },
     development: {
@@ -67,6 +73,12 @@ var run = {
         },
         css: {
             cssnano: true
+        },
+        injectVendor: {
+            wiredep: false
+        },
+        connect: {
+            connectPlug: false
         }
     },
     production: {
@@ -81,6 +93,9 @@ var run = {
         },
         injectVendor: {
             wiredep: false
+        },
+        connect: {
+            connectPlug: true
         }
     }
 };
@@ -92,6 +107,12 @@ var plugin = {
             uglify: {
                 mangle: true
             }
+        },
+        css: {
+            //
+        },
+        connect: {
+            server: {root: './public/', livereload: true}       
         }
     },
     development: {
@@ -112,6 +133,12 @@ var plugin = {
             uglify: {
                 mangle: true
             }
+        },
+        css: {
+
+        },
+        connect: {
+            server: {root: './public/', livereload: true}       
         }
     },
     production: {
@@ -134,6 +161,9 @@ var plugin = {
         	cleanCSS: {
         		compatibility: '*'
         	}
+        },
+        connect: {
+            server: {root: './public/', livereload: true}       
         }
     }
 };
