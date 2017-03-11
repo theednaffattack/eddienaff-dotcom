@@ -2,4 +2,3 @@ node_modules/
 .DS_Store/
 .eslintrc
 .env
-public/bower_components/
