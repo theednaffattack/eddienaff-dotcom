@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--
+This is an HTML document. It contains information about how elements in the website
+are arranged. In other words, it describes the layout of a website.
+
+I can"t wait to see the resumes you put together!
+
+Cameron Pittman, Udacity Course Developer
+-->
+<!--
+The <head> of a website generally links to important resources the page will
+need to load. You"ll see a lot of <link>s to CSS files for styles and
+<scripts> for JavaScript files to build interactions.
+-->
+
+<head>
+  <!-- This tells the browser how to read the document. -->
+  <meta charset="utf-8">
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Eddie Naff - Portfolio</title>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css" />
+  <!-- endbower -->
+
+  <!-- Development-CSS-Fonts: Start -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+  <!-- <link rel="stylesheet" href="bower_components/colors/css/colors.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"> 
+
+  <!-- Load the page styles. -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <!-- Keep my changes to css here -->
+  <link rel="stylesheet" href="css/more_style.css" />
+  <!-- Development-CSS-Fonts: End -->
+
+
+
+  <!-- Uncover for production build! -->
+  <!-- <link rel="stylesheet" href="./public/dist/css/style.min.css"> -->
+  
+  <!--
+  jQuery is a common JavaScript library for reading and making changes to the
+  Document Object Model (DOM). The DOM is a tree that contains information
+  about what is actually visible on a website.
+
+  While HTML is a static document, the browser converts HTML to the
+  DOM and the DOM can change. In fact, JavaScript"s power comes from
+  its ability to manipulate the DOM, which is essentially a JavaScript
+  object. When JavaScript makes something interesting happen on a
+  website, it"s likely the action happened because JavaScript changed
+  the DOM. jQuery is fast and easy to use, but it doesn"t do anything
+  you can"t accomplish with vanilla (regular) JavaScript.
+  -->
+  <!-- <script src="js/jQuery.js"></script> -->
+  <!-- More on helper.js in the class -->
+  <!-- <script src="js/helper.js"></script> -->
+  <!--
+  Uncomment the <script> tag below when you"re ready to add an interactive
+  Google Map to your resume!
+  -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcPo09edS3dSKdmjTMbRBQltHf9yHY0Gc&libraries=places"></script>
+  <!-- <meta name="viewport" content="user-scalable=no, width=device-width"> -->
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+</head>
+
+<body >
+  <div class="container-fluid" id="main">
+    <div class="row ctrlBckgrnd">
+      <!--
+    Everything from here to the <script> tag below is the skeleton of your
+    website. Your code will add information to each of the sections of the
+    resume below. You can pretty easily figure out what each section will
+    display by looking at the id or at what"s written between the <h2> tags.
+    -->
+      <!-- Begin navbar experiment -->
+      <nav class="navbar navbar-default navbar-static-top transparent ctrlNavSizing">
+        <div class="container-fluid">
+          <div class="navbar-header align-vertical">
+            <button type="button" class="navbar-toggle collapsed transparent" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar ctrlSpanPad"></span>
+              <span class="icon-bar ctrlSpanPad"></span>
+              <span class="icon-bar ctrlSpanPad"></span>
+            </button>
+            <a class="navbar-brand appendNavBrand" href="#"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="resumeSections" class="nav navbar-nav">
+              <li>
+                <a href="#link-work-experience">Work Experience</a>
+              </li>
+              <li>
+                <a href="#link-projects">Projects</a>
+              </li>
+              <li>
+                <a href="#link-education">Education</a>
+              </li>
+              <li>
+                <a href="#link-about">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End navbar experiment -->
+      <!-- Begin jumbotron experiment -->
+      <section id="head">
+        <div class="wrapper">
+          <canvas id="headerBackground">
+          </canvas>
+        </div>
+          <div class="jumbotron jumboTopBottomPadding ctrlBckgrnd">
+            <div class="container-fluid">
+              <div class="row center-content">
+                <div class="col-xs-12 col-lg-12">
+                  <h1>Hello.<i class="fa fa-comment-o"></i></h1>
+                </div>
+                <!-- <div class="col-xs-6 col-lg-6">
+                  <h1><i class="fa fa-comment-o"></i></h1>
+                </div> -->
+                <div class="col-xs-12 col-lg-6" id="header">
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- End junmbotron experiment -->
+    </div>
+    <div class="row">
+      <div style="clear: both;"></div>
+      <div id="work-experience" class="gray center-content">
+        <h2>Work Experience</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="projects" class="center-content">
+        <h2>Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="education" class="center-content">
+        <h2>Education</h2>
+      </div>
+    </div>
+    <div class="row gray">
+      <div id="mapDiv" class="center-content">
+        <h2>Where I've Lived and Worked</h2>
+      </div>
+    </div>
+    <div class="row gray">
+      <div id="about" class="center-content">
+        <h2>About Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="letsConnect" class="dark-gray">
+        <h2 class="orange center-text">Let's Connect</h2>
+        <ul id="topContacts" class="flex-box">
+        </ul>
+        <ul id="footerContacts" class="flex-box">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+  if (document.getElementsByClassName("flex-item").length === 0) {
+    document.getElementById("topContacts").style.background = "black";
+  }
+  if (document.getElementsByClassName("myName").length === 0) {
+    document.getElementById("header").style.background = "black";
+  }
+  if (document.getElementsByClassName("work-entry").length === 0) {
+    document.getElementById("work-experience").style.background = "black";
+  }
+  // if (document.getElementsByClassName("project-entry").length === 0) {
+  //   document.getElementById("projects").style.background = "black";
+  // }
+  if (document.getElementsByClassName("education-entry").length === 0) {
+    document.getElementById("education").style.background = "black";
+  }
+  if (document.getElementsByClassName("flex-item").length === 0) {
+    document.getElementById("letsConnect").style.background = "black";
+  }
+  if (document.getElementById("map") === null) {
+    document.getElementById("mapDiv").style.background = "black";
+  }
+  </script>
+
+  <!-- Production: Start -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/materialize/bin/materialize.js"></script>
+  <!-- endbower -->
+  <!-- Production: End -->
+
+  <!-- <script src="dist/js/script.js"></script> -->
+
+  <!-- Development: Start -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="bower_components/d3/d3.js"></script>
+      <script src="bower_components/materialize/bin/materialize.js"></script>
+      <!-- endbower -->
+  <!-- <script src="js/canvasSizer.js"></script> -->
+  <script src="js/scrollWidthDebugger.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+  <script>
+    var pattern = Trianglify({
+      // width: window.innerWidth,
+      // height: window.innerHeight
+      width: $('header').innerWidth(),
+      height: $('header').innerHeight(),
+      cell_size: 50,
+      x_colors: 'RdBu',
+      palette: Trianglify.colorbrewer
+    });
+
+    // document.body.appendChild(pattern.canvas());
+    $('header').append(pattern.canvas());
+  </script>
+  <!-- Development: End -->
+</body>
+
+</html>

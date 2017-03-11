@@ -6,11 +6,19 @@ Dev Environment
 * MacBook Pro
 * Docker **_coming soon_**
 
-Scaffolds / Boilerplates
+Frontend
 ---
-* [Clementine FCC Boilerplate - Pure Express] (http://www.clementinejs.com/versions/fcc.html)
+* [Materialize CSS] (http://materializecss.com/getting-started.html)
 
-* [Clementine FCC Boilerplate - MERN setup (w/ Redux)] (https://libraries.io/github/Em-Ant/clementinejs-react-redux)
+* Straight HTML / JavaScript (nothin' fancy yet)
+
+  ### Scaffolds / Boilerplates
+
+  * [Clementine FCC Boilerplate - Pure Express] (http://www.clementinejs.com/versions/fcc.html)
+
+  * [Clementine FCC Boilerplate - MERN setup (w/ Redux)] (https://libraries.io/github/Em-Ant/clementinejs-react-redux)
+
+  * [Another version of MERN (looks janky)] (https://jokeyrhyme.github.io/2016/07/25/quick-react-and-redux-bootstrap-example.html)
 
 Backend
 ---

@@ -1,1 +1,319 @@
-body,html{height:100%;width:100%;padding:0;margin:0;font-family:Lato,Robot,sans-serif}.skillBadge{transition:color .5s ease;text-shadow:2px 2px 2px grey}.skillBadge:hover{color:#dd6651}.fa-envelope-o{font-size:3.5em}.fa-mobile{font-size:4.5em}.ctrlSpanPad{padding:0}.ctrlBckgrnd{background-color:#484848}.ctrlNavSizing{padding:0 5% 0 5%}i{padding:0 15px 0 15px}.myName{font-size:1.3em}.myRole{font-size:1.3em}.myNavbarToggle{margin-top:13px}.welcome-message{font-family:Lato,Roboto,sans-serif;font-weight:200;margin-top:50;line-height:1.9em}.canvas{min-width:100%;display:block}#headerBackground{position:absolute;top:0;text-align:center}.navbar-inner{background-color:orange}.bottom-align-text{position:absolute;bottom:0;right:0}body{overflow-x:hidden}.jumbotron h1{font-size:6vw;font-family:Lato,Roboto,sans-serif}.flex-item{font-size:1.25em}.list-inline li{padding:0}.fa-comment-o{position:relative;top:-.7em}#skills,#skillsH3{font-family:Lato,Roboto,sans-serif}.navbar-default.transparent{border:0;-webkit-box-shadow:0 0;box-shadow:0 0;background-color:rgba(134,7,76,.2);background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));background-image:-webkit-linear-gradient(270deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);background-image:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)}.navbar-toggle:focus.transparent{border-color:rgba(134,7,76,1);-webkit-box-shadow:0 0;box-shadow:0 0;background-color:rgba(134,7,76,.2);background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));background-image:-webkit-linear-gradient(270deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);background-image:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)}.navbar-toggle:visited.transparent{border-color:rgba(134,7,76,1);-webkit-box-shadow:0 0;box-shadow:0 0;background-color:rgba(134,7,76,.2);background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));background-image:-webkit-linear-gradient(270deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);background-image:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)}.navbar-toggle:hover.transparent{border-color:rgba(134,7,76,1);-webkit-box-shadow:0 0;box-shadow:0 0;background-color:rgba(134,7,76,.2);background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));background-image:-webkit-linear-gradient(270deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);background-image:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)}.navbar-toggle.collapsed{border:0;-webkit-box-shadow:0 0;box-shadow:0 0;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));background-image:-webkit-linear-gradient(270deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);background-image:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)}.navbar-default .navbar-brand{color:#000}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#86074c}.navbar-default .navbar-toggle .icon-bar{background-color:rgba(134,7,76,1)}.navbar-default .navbar-collapse{border:0}.navbar-default .navbar-nav>li>a{color:#000}.navbar-default .navbar-nav>li>a:hover{color:#86074c;-webkit-transition:color .3s ease-in-out;transition:color .3s ease-in-out}@media only screen and (max-width:550px){.jumbotron h1{font-size:19vw;font-family:Lato,Roboto,sans-serif}.fa-comment-o{font-size:16vw}.myName{font-size:1em}.myRole{font-size:1em}#mapDiv{margin:0 0 120px 0}}@media only screen and (min-width:551px) and (max-width:740px){.jumbotron h1{font-size:13vw;max-font-size:120px;min-font-size:70px;font-family:Lato,Roboto,sans-serif}#mapDiv{margin:0 0 60px 0}}h2{font-size:40px;padding:0;line-height:1.5;color:#333}.fa{padding:0}
+/*@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', 'Robot', sans-serif;
+}
+/*.container-fluid {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}*/
+/*.fill-vert {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color:#990000;
+    padding:10px;
+    
+    color: #efefef;
+    margin: 0;
+}*/
+/*.fa-github-square,*/
+/*.fa-twitter-square,*/
+
+.skillBadge {
+    transition: color 0.5s ease;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.skillBadge:hover {
+    color: #dd6651;
+}
+
+.fa-envelope-o {
+    font-size: 3.5em;
+}
+
+.fa-mobile {
+    font-size: 4.5em;
+}
+/*Control the padding to prevent the 'nav hamburger' from being too large */
+
+.ctrlSpanPad {
+    padding: 0;
+}
+
+/*.ctrlBckgrnd {
+    background-color: #484848;
+}*/
+
+.ctrlNavSizing {
+    padding: 0 5% 0 5%;
+    /*  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%*/
+}
+
+i {
+    padding: 0 15px 0 15px;
+}
+
+.myName {
+    font-size: 1.3em;
+}
+
+.myRole {
+    font-size: 1.3em;
+}
+/*.jumboTopBottomPadding {
+    padding: 0 15px 0 15px;
+}*/
+/*.appendNameRole {
+  margin: 0;
+}*/
+/*.myNavbarBrand {
+  font-size: 1em;
+}*/
+
+.myNavbarToggle {
+    margin-top: 13px;
+}
+
+.welcome-message {
+    font-family: "Lato", "Roboto", sans-serif;
+    /*font-size: 24px;*/
+    
+    font-weight: 200;
+    margin-top: 50;
+    line-height: 1.9em;
+}
+
+.canvas {
+    min-width: 100%;
+    display: block;
+}
+
+#headerBackground {
+    position: absolute;
+    /*width: 500px;*/
+    /*height: 500px;*/
+    /*left: 20%;*/
+    
+    top: 0;
+    text-align: center;
+}
+
+.navbar-inner {
+    /*background-image: url();*/
+    
+    background-color: orange;
+}
+/*.jumbotron h1 {
+    font-size: 75px;
+    line-height: 70px;
+    padding: 0 0 30 0;
+    margin: 0 0 30 0;
+    display: inline;
+}*/
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron h1 {
+    font-size: 6vw;
+    font-family: "Lato", "Roboto", sans-serif;
+}
+
+.flex-item {
+    font-size: 1.25em;
+}
+
+.list-inline li {
+    padding: 0;
+}
+
+.fa-comment-o {
+    position: relative;
+    top: -.7em;
+}
+
+#skills,
+#skillsH3 {
+    font-family: "Lato", "Roboto", sans-serif;
+}
+
+/* BEG TODO: extend all of these rather than changing Bootstrap*/
+
+.navbar-default.transparent {
+    border: 0;
+    /*border-width: 0px;*/
+    /*border-color: rgba(134, 7, 76, 1.0);*/
+    
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    /*background-color: rgba(117, 107, 177, 0.4);*/
+    background-color: rgba(134, 7, 76, 0.2);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navbar-toggle:focus.transparent {
+    /*border: 0;*/
+    /*border-width: 0px;*/
+    border-color: rgba(134, 7, 76, 1.0);
+    
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    background-color: rgba(134, 7, 76, 0.2);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navbar-toggle:visited.transparent {
+    /*border: 0;*/
+    /*border-width: 0px;*/
+    border-color: rgba(134, 7, 76, 1.0);
+    
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    background-color: rgba(134, 7, 76, 0.2);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navbar-toggle:hover.transparent {
+    /*border: 0;*/
+    /*border-width: 0px;*/
+    border-color: rgba(134, 7, 76, 1.0);
+    
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(134, 7, 76, 0.2);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navbar-toggle.collapsed {
+    border: 0;
+    /*border-width: 0px;*/
+    /*border-color: rgba(134, 7, 76, 0.5);*/
+    
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    /*background-color: rgba(134, 7, 76, 0.2);*/
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: rgb(134, 7, 76);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: rgba(134, 7, 76, 1.0);
+
+}
+.navbar-default .navbar-collapse{
+    border: 0;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgb(134, 7, 76);
+  /*color: black;*/
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* END TODO: extend all of these rather than changing Bootstrap*/
+
+@media only screen and (max-width: 550px) {
+    .jumbotron h1 {
+        font-size: 19vw;
+        font-family: "Lato", "Roboto", sans-serif;
+    }
+    .fa-comment-o {
+        font-size: 16vw;
+    }
+    .myName {
+        font-size: 1em;
+    }
+    .myRole {
+        font-size: 1em;
+    }
+    /*hack to force space below the map which overflows the #map container*/
+    #mapDiv {
+        margin: 0 0 120px 0;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 740px) {
+    .jumbotron h1 {
+        font-size: 13vw;
+        max-font-size: 120px;
+        min-font-size: 70px;
+        font-family: "Lato", "Roboto", sans-serif;
+    }
+    /* repeate of hack to force space below the map which overflows the #map container*/
+    #mapDiv {
+        margin: 0 0 60px 0;
+    }
+}
+
+h2 {
+    font-size: 40px;
+    padding: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+/*.fa {
+    background-color: #333;
+    border-radius: 80px;
+    color: #fff;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: auto 3px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+/*to make it colorize when hovered, for example the twitter icon:*/
+
+/*.fa-twitter:hover { 
+    background-color: #46c0fb; 
+}*/
+
+.fa {
+    padding: 0;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "eddienaff-dotcom-clementine",
+  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
+  "main": "server.js",
+  "authors": [
+    "Eddie Naff"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "full",
+    "stack",
+    "Express",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/theednaffattack/eddienaff-dotcom",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "colors": "https://github.com/Agent5/colors.git",
+    "d3": "~3.4.12",
+    "fontawesome": "~4.3.0",
+    "jquery": "^3.1.1",
+    "trianglify": "https://github.com/qrohlf/trianglify.git#~0.2.1",
+    "materialize": "^0.98.0"
+  }
+}
