@@ -49,6 +49,8 @@ Bundlers & Task Runners: Gulp
 
 * [This is Gulp GOLD!!!] (https://www.freshconsulting.com/how-to-organize-your-gulp-js-development-builds-for-multiple-environments/) 
 
+* [Gulp with Wired Dependencies (including my own libraries)] (https://coderwall.com/p/vtkdbg/inject-js-and-css-into-html-using-gulp)
+
 * [Upgrade from reload to browserSync... someday] (https://browsersync.io/docs/gulp/)
 
 * Also here - [Browsersync + Gulp] (https://github.com/BrowserSync/gulp-browser-sync)

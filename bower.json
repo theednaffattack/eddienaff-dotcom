@@ -27,12 +27,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.4",
-    "colors": "https://github.com/Agent5/colors.git",
-    "d3": "~3.4.12",
-    "fontawesome": "~4.3.0",
-    "jquery": "^3.1.1",
-    "trianglify": "https://github.com/qrohlf/trianglify.git#~0.2.1",
-    "materialize": "^0.98.0"
+    "materialize": "^0.98.0",
+    "font-awesome": "^4.7.0"
   }
 }
