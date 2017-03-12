@@ -7,5 +7,5 @@ var config = require('./config');
 
 gulp.task('html', function() {
 	gulp.src(config.paths.src.html)
-	.pipe(connectPlug.reload())
+	.pipe(connectPlug.reload());
 });

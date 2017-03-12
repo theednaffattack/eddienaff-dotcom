@@ -7,6 +7,6 @@ var config = require('./config');
 gulp.task('watch', function() {
 	gulp.watch(config.paths.src.js, ['js']);
 	gulp.watch(config.paths.src.css, ['css']);
-	gulp.watch('./public/index.html', ['html']);
+	gulp.watch(config.paths.src.html, ['html']);
 });
 

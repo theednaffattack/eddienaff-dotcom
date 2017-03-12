@@ -92,7 +92,7 @@ var run = {
             cleanCSS: true
         },
         injectVendor: {
-            wiredep: false
+            wiredep: true
         },
         connect: {
             connectPlug: true
