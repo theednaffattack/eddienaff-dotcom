@@ -1,77 +1,255 @@
-<html>
-  <head>
-    
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Eddie Naff - Web Developer</title>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- CSS -->
+    <!-- <link href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css" />
-    <!-- endbower -->
+    <style>
+    .bg-skin-lp {
+        background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%2823%29.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    </style>
 </head>
 
-<body>
-    <ul class="side-nav fixed table-of-contents">
-        <li class="remove-top-padding">
-            <div class="userView">
-                <div class="background">
-                    <img class="opacity-low responsive-img" src="img/trianglify-pattern.svg">
-                </div>
-                <!-- <span class="center-align"> -->
-                <img class="circle responsive-img me" src="img/me_again.jpg">
-                <span class="name-text-sidenav center-align white-text">Eddie Naff</span>
-                <span class="email-text-sidenav center-align white-text">Web Developer</span>
-                <!-- </span> -->
-            </div>
-        </li>
-        <li><a href="#!"><i class="material-icons amber-text">dashboard</i>Projects</a></li>
-        <li><a href="#!"><i class="material-icons purple-text">list</i>Experience</a></li>
-        <li><a href="#!"><i class="material-icons red-text">trending_up</i>Skills</a></li>
-        <li><a href="#!"><i class="material-icons blue-text">mail</i>Contact</a></li>
-    </ul>
-    <nav class="hide-on-large-only navbar-color-custom">
-        <a href="#" data-activates="slide-out" class="button-collapse">
-            <span class="purple darken-1"><i class="material-icons">menu</i></span>
-        </a>
-        <div class="name-title"><span class="name-text">Eddie Naff</span></div>
-        <ul id="slide-out" class="side-nav" style="width: 190px; left: 0px;">
+<body class="fixed-sn navy-blue-skin">
+    
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <ul id="slide-out" class="side-nav fixed sn-bg-1 custom-scrollbar">
+
+            <!-- Logo -->
             <li>
-                <div class="userView">
-                    <div class="background">
-                        <div class="responsive-img"></div>
-                        <img class="opacity-low responsive-img" src="img/trianglify-pattern.svg">
-                    </div>
-                    <!-- <span class="center-align"> -->
-                    <img class="circle responsive-img me" src="img/me_again.jpg">
-                    <span class="name-text-sidenav center-align">Eddie Naff</span>
-                    <span class="email-text-sidenav center-align">Web Developer</span>
-                    <!-- </span> -->
+                <div class="logo-wrapper waves-light sn-avatar-wrapper">
+                    <a href="#">
+                        <img src="img/me_again.jpg" class="rounded-circle">
+                    </a>
                 </div>
             </li>
-            <li><a href="#!"><i class="material-icons amber-text">dashboard</i>Projects</a></li>
-            <li><a href="#!"><i class="material-icons purple-text">list</i>Experience</a></li>
-            <li><a href="#!"><i class="material-icons red-text">trending_up</i>Skills</a></li>
-            <li><a href="#!"><i class="material-icons blue-text">mail</i>Contact</a></li>
+            <!--/. Logo -->
+
+            <!--About-->
+            <li>
+                <div class="about">
+                    <p class="nav__name--size">Eddie Naff</p>
+                    <p class="nav__title--size">Web Developer</p>
+                </div>
+            </li>
+            <!--/.About-->
+
+            <!--Social-->
+            <li>
+                <ul class="social">
+                    <li><a href="https://twitter.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github"> </i></a></li>
+                    <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a></li>
+                    <li><a href="https://twitter.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+                </ul>
+            </li>
+            <!--/Social-->
+
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+
+                    <li><a class="collapsible-header waves-effect"><i class="fa fa-forward"></i> Projects</a>
+                    </li>
+                    <li><a class="collapsible-header waves-effect "><i class="fa fa-paw"></i> Experience</a>
+                    </li>
+                    <li><a class="collapsible-header waves-effect "><i class="fa fa-user"></i> Skills</a>
+                    </li>
+                    <li><a class="collapsible-header waves-effect "><i class="fa fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
+            <div class="sidenav-bg mask-strong"></div>
         </ul>
+        <!--/. Sidebar navigation -->
+
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar double-nav hidden-sm-up">
+
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+        </div>
+<div class="text-center">
+    Hello
+</div>
+        
+
     </nav>
+    <!--/.Navbar-->
+    </header>
+    <!-- /.Double navigation -->
+    <!--Main layout-->
     <main>
-        <div class="container">
-            Body content
+        <div class="container-fluid">
+            <!--Section: Blog v.2-->
+            <section class="section extra-margins text-center">
+                <!--Section heading-->
+                <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s">Projects</h1>
+                <!--Section sescription-->
+                <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                <!--First row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.2s">
+                        <!--Featured image-->
+                        <div class="view overlay hm-white-slight mb-3">
+                            <img src="https://mdbootstrap.com/images/regular/people/img%20(51).jpg">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <h5 class="blue-text"><i class="fa fa-map "></i>Adventure</h5>
+                        <h4>Life travel - 2 weeks in Amazon Jungle.</h4>
+                        <p>by <a><strong>John Doe</strong></a>, 23.06.2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
+                        <a class="btn btn-primary ">Read more</a>
+                    </div>
+                    <!--/First column-->
+                    <hr class="p-col">
+                    <!--Second column-->
+                    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Featured image-->
+                        <div class="view overlay hm-white-slight mb-3">
+                            <img src="https://mdbootstrap.com/images/regular/people/img%20(59).jpg">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <h5 class="red-text"><i class="fa fa-heart "></i>Friendship</h5>
+                        <h4>6 ideas for journey with your friend in summer.</h4>
+                        <p>by <a><strong>Maria Kate</strong></a>, 22.06.2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
+                        <a class="btn btn-primary ">Read more</a>
+                    </div>
+                    <!--/Second column-->
+                    <hr class="p-col">
+                    <!--Third column-->
+                    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.4s">
+                        <!--Featured image-->
+                        <div class="view overlay hm-white-slight mb-3">
+                            <img src="https://mdbootstrap.com/images/regular/people/img%20(66).jpg">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <h5 class="teal-text "><i class="fa fa-fire "></i>Animals</h5>
+                        <h4>You're the best friend for your dog.</h4>
+                        <p>by <a><strong>John Doe</strong></a>, 21.06.2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
+                        <a class="btn btn-primary ">Read more</a>
+                    </div>
+                    <!--/Third column-->
+                </div>
+                <!--/First row-->
+            </section>
+            <!--/Section: Blog v.2-->
+            <hr class="between-sections">
         </div>
     </main>
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/materialize/bin/materialize.js"></script>
-    <!-- endbower -->
+    <!--/Main layout-->
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row wow fadeIn" data-wow-delay="0.3s">
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+                <hr class="hidden-md-up">
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class="hidden-md-up">
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class="hidden-md-up">
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <hr>
+        <!--Social buttons-->
+        <div class="social-section wow fadeIn" data-wow-delay="0.3s">
+            <ul>
+                <li><a href="https://twitter.com/theednaffattack" target="_blank" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="btn-floating btn-small btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a></li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="http://www.eddienaff.com"> Eddie Naff </a>
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
     <script>
-    $(document).ready(function() {
-        $(".button-collapse").sideNav();
-        // var sideNavContainer = $(".trianglifySideNav")
-        // sideNavContainer.insertBefore(pattern, container.firstChild);
-    });
+    $(".button-collapse").sideNav();
+
+    var el = document.querySelector('.custom-scrollbar');
+    Ps.initialize(el);
     </script>
 </body>
+
 </html>

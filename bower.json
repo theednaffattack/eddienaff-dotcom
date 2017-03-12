@@ -30,6 +30,7 @@
     "materialize": "^0.98.0",
     "font-awesome": "^4.7.0",
     "d3": "^4.7.2",
-    "trianglify": "^1.0.0"
+    "trianglify": "^1.0.0",
+    "mdi": "^1.8.36"
   }
 }

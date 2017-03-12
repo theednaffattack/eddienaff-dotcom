@@ -1,88 +1,12 @@
-html {
-	font-weight: 300;
-}
-body {
-	padding: 0
-	margin: 0;
-	background-color: white;
-}
-header {
-    padding-left: 200px;
-}
+/* YOUR CUSTOM STYLES */
 
-.side-nav li>a>i {
-    margin-right: 8px !important;
-}
 
-a.menu-button-color {
-    color: #fce4ec;
-}
-
-/*.opacity-low {
-    opacity: 0.95;
-}*/
-
-.side-nav a {
-	font-size: 1.35em;
+.nav__name--size {
+	font-size: 1.4em;
 	font-weight: 300;
 }
 
-.table-of-contents a:hover {
-	    border-left: 4px solid #ee6e73;    
-	    padding-left: 19px;
-
-	    transition-duration: .2s
-}
-
-.side-nav .userView .circle {
-	height: 100px;
-	width: 100px;
-}
-
-.me {
-	margin: 0 auto;
-}
-
-.name-title{
-	text-align: center;
-}
-
-.name-text {
-    font-size: 1.4em;
-    font-weight: 400;
-    margin-left: -40px;
-    /*display: block;*/
-}
-
-.name-text-sidenav {
-	font-size: 1.5em;
+.nav__title--size {
+	font-size: 1.2em;
 	font-weight: 300;
-	display: block;
-	margin-bottom: -1em;
-}
-
-.email-text-sidenav {
-	font-size: 1.3em;
-	font-weight: 300;
-	display: block;
-}
-
-.table-of-contents li.remove-top-padding {
-	padding-top: 0;
-}
-
-.navbar-color-custom {
-	background-color: #d0430b;
-}
-
-.side-nav {
-	width: 200px;
-}
-
-@media only screen and (max-width: 992px) {
-    header,
-    main,
-    footer {
-        padding-left: 0;
-    }
 }

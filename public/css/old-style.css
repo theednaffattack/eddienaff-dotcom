@@ -1,0 +1,116 @@
+html {
+	font-weight: 300;
+}
+body {
+	padding: 0,
+	margin: 0;
+	background-color: white;
+}
+
+main {
+	padding-left: 190px;
+}
+.side-nav li>a>i {
+    margin-right: 8px !important;
+}
+
+a.menu-button-color {
+    color: #fce4ec;
+}
+
+/*.opacity-low {
+    opacity: 0.95;
+}*/
+
+.side-nav.side-nav-links a {
+	font-size: 1.15em;
+	font-weight: 300;
+}
+
+.table-of-contents.addBorder a:hover {
+	    border-left: 4px solid #ee6e73;    
+	    padding-left: 19px;
+
+	    transition-duration: .2s
+}
+
+.side-nav .userView .circle {
+	height: 100px;
+	width: 100px;
+}
+
+.me {
+	margin: 0 auto;
+}
+
+.name-title{
+	text-align: center;
+}
+
+/*.name-text {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: center;
+}*/
+
+.name-text-sidenav {
+	font-size: 1.5em;
+	font-weight: 300;
+	display: block;
+	margin-bottom: -1em;
+}
+
+.email-text-sidenav {
+	font-size: 1.2em;
+	font-weight: 300;
+	display: block;
+}
+
+.table-of-contents li.remove-top-padding {
+	padding-top: 0;
+}
+
+.navbar-color-custom {
+	background-color: #d0430b;
+}
+
+.side-nav {
+	width: 190px;
+}
+
+.zero-height {
+	height: 0;
+}
+
+section .container {
+	width: 100%;
+}
+.section-title {
+	padding: 0.1 0.1 0.1 40px;
+}
+
+.present-h3 {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+    .name-text {
+        display: block;
+	    font-size: 1.4em;
+	    font-weight: 300;
+        /*height: 100%;*/
+        /*padding-top: 15px;*/
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+}
