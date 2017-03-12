@@ -1,7 +1,7 @@
 // Create a new SVG pattern with Trianglify.
 var pattern = Trianglify({
-  width: 300,
-  height: 300,
+  width: 200,
+  height: 220,
   cell_size: 40,
   x_colors: 'YlOrRd',
   variance: 1,
