@@ -10,3 +10,38 @@
 	font-size: 1.2em;
 	font-weight: 300;
 }
+.fa-1_7x {
+    font-size: 1.7em;
+}
+
+.side-nav .logo-wrapper.extend {
+    height: 164px;
+}
+
+.side-nav .sn-avatar-wrapper img.avatar-wrapper-extend {
+	max-width: 140px;
+	border: 2px solid #e0e0e0;
+}
+
+.side-nav .sn-avatar-wrapper.extend {
+	padding-left: 22%;
+	padding-right: 22%;
+}
+
+
+
+.navbar.navbar-toggleable-md.extend {
+  display: inline-block;
+  float: none;
+  text-align: center;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+p.nav__text--margin {
+	margin-bottom: 0;
+	margin-top: 5px;
+}
