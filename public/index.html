@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Eddie Naff - Web Developer</title>
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
@@ -56,7 +55,7 @@
             <!--/Social-->
             <!-- Side navigation links -->
             <li>
-                <ul class="collapsible collapsible-accordion">
+                <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
                     <li><a href="#projects" class="collapsible-header waves-effect"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
                     </li>
                     <li><a href="#experience" class="collapsible-header waves-effect"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
@@ -88,7 +87,7 @@
     <main class="main__padding--top--size">
         <div class="container-fluid">
             <!--Section: Projects-->
-            <section class="section extra-margins">
+            <section class="section extra-margins" id="projects">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Projects</h1>
                 <hr class="between-sections">
@@ -153,9 +152,9 @@
                 <!--/First row-->
             </section>
             <!--/Section: Projects-->
-                <hr class="between-sections">
+            <hr class="between-sections">
             <!--Section: Experience-->
-            <section class="section extra-margins">
+            <section class="section extra-margins" id="experience">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Experience</h1>
                 <hr class="between-sections">
@@ -163,9 +162,9 @@
                 <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
             </section>
             <!--/Section: Experience-->
-                <hr class="between-sections">
+            <hr class="between-sections">
             <!--Section: Skills-->
-            <section class="section extra-margins">
+            <section class="section extra-margins" id="skills">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Skills</h1>
                 <hr class="between-sections">
@@ -173,9 +172,9 @@
                 <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
             </section>
             <!--/Section: Skills-->
-                <hr class="between-sections">
+            <hr class="between-sections">
             <!--Section: Contact-->
-            <section class="section extra-margins">
+            <section class="section extra-margins" id="contact">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Contact</h1>
                 <hr class="between-sections">
@@ -212,10 +211,15 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script>
-    $(".button-collapse").sideNav();
+        $(document).ready(function() {
+            $(".button-collapse").sideNav({
+                closeOnClick: true,
+                hide: true
+            });
+            
+            $("#nav-mobile li").click(function() { $('.button-collapse').sideNav('hide'); });
+        });
 
-    var el = document.querySelector('.custom-scrollbar');
-    Ps.initialize(el);
     </script>
 </body>
 
