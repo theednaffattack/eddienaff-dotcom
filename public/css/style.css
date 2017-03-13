@@ -24,11 +24,16 @@
 }
 
 .side-nav .sn-avatar-wrapper.extend {
-	padding-left: 22%;
+	padding-left: 18%;
 	padding-right: 22%;
 }
 
-
+.side-nav .about.extend {
+    padding-left: 18%;
+    padding-right: 22%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .navbar.navbar-toggleable-md.extend {
   display: inline-block;
@@ -44,4 +49,17 @@
 p.nav__text--margin {
 	margin-bottom: 0;
 	margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.fixed-sn main, .hidden-sn main.main__padding--top--size {
+    padding-top: 3rem;
+}
+
+}
+
+i .btn__icon--size {
+   /* width: inherit;
+    text-align: center;*/
+    font-size: 2rem;
 }
