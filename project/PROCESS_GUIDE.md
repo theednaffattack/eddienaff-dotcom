@@ -31,6 +31,7 @@ Backend
     3. [Let's Encrypt Auto-Renewal] (https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
 
     4. [How to Use Cron to Automate Tasks in a VPS] (https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-on-a-vps)
+  2. [Setting up Email (via Gmail)] (https://www.digitalocean.com/community/tutorials/how-to-set-up-gmail-with-your-domain-on-digitalocean)
 
 * [Heroku] (http://eddienaff.com) **_coming soon_**
 
