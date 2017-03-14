@@ -100,6 +100,7 @@ i .btn__icon--size {
     margin-right: 15%;
 }
 
+
 /*.card--padding--left240 {
     padding-left: 240px;
     height: 100vh;
@@ -127,17 +128,32 @@ h1.intro-hello {
     top: -.7em;
 }
 
+.view {
+    background: url('public/img/gg-bridge.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-/*.h4--nowrap {
-  white-space: nowrap;
-}*/
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
 
 @media (min-width: 1200px) {
     .card--padding--left240 {
         padding-left: 240px;
-        height: 100vh;
+        /*height: 100vh;*/
     }
 }
 
-
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
 }
