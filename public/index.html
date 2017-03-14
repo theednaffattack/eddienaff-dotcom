@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/font-mfizz/css/font-mfizz.css" />
-    <!-- endbower -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
     <style>
-    .bg-skin-lp {
-        background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%2823%29.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-    }
+        .view {
+            background: url('img/gg-bridge.jpg')no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        html, body, header, .view {
+    height: 100%;
+}
     </style>
 </head>
 
@@ -59,13 +60,15 @@
             <!-- Side navigation links -->
             <li>
                 <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
-                    <li><a href="#projects" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
+                    <li><a href="#about-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-user fa-2x" aria-hidden="true"></i></span> About</a>
                     </li>
-                    <li><a href="#experience" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
+                    <li><a href="#projects-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
                     </li>
-                    <li><a href="#skills" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
+                    <li><a href="#experience-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
                     </li>
-                    <li><a href="#contact" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                    <li><a href="#skills-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
+                    </li>
+                    <li><a href="#contact-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
                     </li>
                 </ul>
             </li>
@@ -84,11 +87,50 @@
             </div>
         </nav>
         <!--/.Navbar-->
+<!-- Mask -->
+<div class="view hm-black-strong">
+            <div class="full-bg-img flex-center">
+                <div class="container">
+                    <div class="row" id="home">
+                    <!--Card-->
+                    <div class="card-overlay card--padding--left240 z-depth-0">
+
+                        <!--Content-->
+                        <div class="white-text text-center">
+                            <div class="card-block">
+                            <p class="section-description"><h1 class="intro-hello">Hello <i class="fa fa-comment-o fa-comment-raise"></i></h1></p>
+                                
+                <p class="section-description-left-align text-fluid">I'm Eddie Naff, a fullstack web developer.</p><p class="section-description-left-align text-fluid">I create apps using NodeJS coupled with ReactJS and / or AngularJS front-end frameworks.</p>
+                <p class="section-description-left-align text-fluid"> I enjoy making apps that are <em>lean, functional, and stylish.</p>
+
+                                <p><i class="fa fa-angle-down fa-3x"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Card-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- /.Mask -->
     </header>
     <!-- /.Double navigation -->
     <!--Main layout-->
-    <main class="main__padding--top--size">
+    <main class="main__padding--top--size" id="about-link">
         <div class="container-fluid">
+            <!-- Section: About -->
+            <section class="section extra-margins" id="about">
+
+
+
+
+                <h1 class="wow fadeIn" data-wow-delay="0.2s">About</h1>
+                <p class="section-description-left-align text-fluid">Hi, I'm Eddie Naff, a San Francisco-based fullstack web developer. I create apps using NodeJS coupled with ReactJS and / or AngularJS front-end frameworks.</em></p>
+                <p class="section-description-left-align text-fluid"> I enjoy making apps that are <em>lean, functional, and stylish.</p>
+            </section>
+            <!-- /.Section: About -->
+            <hr class="between-sections" id="projects-link">
             <!--Section: Projects-->
             <section class="section extra-margins" id="projects">
                 <!--Section heading-->
@@ -126,7 +168,7 @@
                             </a>
                         </div>
                         <!--Excerpt-->
-                        <h5 class="red-text"><i class="fa fa-heart " aria-hidden="true"></i>Friendship</h5>
+                        <h5 class="teal-text"><i class="fa fa-heart " aria-hidden="true"></i>Friendship</h5>
                         <h4>6 ideas for journey with your friend in summer.</h4>
                         <p>by <a><strong>Maria Kate</strong></a>, 22.06.2016</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
@@ -169,9 +211,9 @@
                                     <div class="col-md-6 text-left">
                                         <h4 class="panel-title h4-responsive h4--nowrap">Hawk Ridge Systems</h4>
                                         <p class="text-muted card__p--margin--adjust"><em>Jun '15 - Nov '16</em></p>
-                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Full Stack Web Developer</p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Full Stack Web Developer</p>
                                     </div>
-                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
                                         <p class="card__p--margin--top12">Full Stack Web Developer</p>
                                     </div>
                                 </div>
@@ -195,9 +237,9 @@
                                     <div class="col-md-6 text-left">
                                         <h4 class="panel-title h4-responsive h4--nowrap">ClearSlide</h4>
                                         <p class="text-muted card__p--margin--adjust"><em>Feb '14 - Apr '15</em></p>
-                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Marketing Operations Specialist</p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Marketing Operations Specialist</p>
                                     </div>
-                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
                                         <p class="card__p--margin--top12">Marketing Operations Specialist</p>
                                     </div>
                                 </div>
@@ -221,9 +263,9 @@
                                     <div class="col-md-6 text-left">
                                         <h4 class="panel-title h4-responsive h4--nowrap">Premier Staffing Inc.</h4>
                                         <p class="text-muted card__p--margin--adjust"><em>Jun '13 - Feb '14</em></p>
-                                        <p class="hidden-sm-up red-text card__p--margin--adjust">various tech. and admin</p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">various tech. and admin</p>
                                     </div>
-                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
                                         <p class="card__p--margin--top12">various tech. and admin</p>
                                     </div>
                                 </div>
@@ -247,9 +289,9 @@
                                     <div class="col-md-8 text-left">
                                         <h4 class="panel-title h4-responsive h4--nowrap">California Administrative Office of the Courts</h4>
                                         <p class="text-muted card__p--margin--adjust"><em>Jun '13 - Jun '14</em></p>
-                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Risk Management Analyst II</p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Risk Management Analyst II</p>
                                     </div>
-                                    <div class="col-md-4 text-right hidden-lg-down  red-text">
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
                                         <p class="card__p--margin--top12">Risk Management Analyst II</p>
                                     </div>
                                 </div>
@@ -270,31 +312,55 @@
                 </div>
             </section>
             <!--/Section: Experience-->
-            <hr class="between-sections">
+            <hr class="between-sections" id="skills-link">
             <!--Section: Skills-->
             <section class="section extra-margins" id="skills">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Skills</h1>
                 <hr class="between-sections">
                 <!--Section description-->
-                <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                <div>
+                    <ul class="list-inline row text-center">
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-html5-alt fa-5x"></i>
+                            <p>HTML5</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-css3-alt fa-5x"></i>
+                            <p>CSS3</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-nodejs fa-5x"></i>
+                            <p>NodeJS</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-javascript-alt fa-5x"></i>
+                            <p>JavaScript</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-reactjs fa-5x"></i>
+                            <p>ReacJS</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-angular fa-5x"></i>
+                            <p>Angular 1.*</p>
+                        </li>
+                        <li class="list-inline-item  ulist__li--no-right-margin col-sm-3"><i class="icon-git fa-5x"></i>
+                            <p>Git</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <!--/Section: Skills-->
-            <hr class="between-sections">
+            <hr class="between-sections" id="contact-link">
             <!--Section: Contact-->
             <section class="section extra-margins" id="contact">
                 <!--Section heading-->
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Contact</h1>
                 <hr class="between-sections">
                 <!--Section description-->
-                    <ul class="text-center">
-                        <li>
-                            <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a></li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a></li>
-                        <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
-                        <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
+                <ul class="text-center">
+                    <li>
+                        <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a></li>
+                    <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
+                    <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
+                </ul>
             </section>
             <!--/Section: Contact-->
         </div>

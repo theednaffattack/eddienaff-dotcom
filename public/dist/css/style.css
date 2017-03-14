@@ -1,15 +1,15 @@
 /* YOUR CUSTOM STYLES */
 
-
 .nav__name--size {
-	font-size: 1.4em;
-	font-weight: 300;
+    font-size: 1.4em;
+    font-weight: 300;
 }
 
 .nav__title--size {
-	font-size: 1.2em;
-	font-weight: 300;
+    font-size: 1.2em;
+    font-weight: 300;
 }
+
 .fa-1_7x {
     font-size: 1.7em;
 }
@@ -19,13 +19,13 @@
 }
 
 .side-nav .sn-avatar-wrapper img.avatar-wrapper-extend {
-	max-width: 140px;
-	border: 2px solid #e0e0e0;
+    max-width: 140px;
+    border: 2px solid #e0e0e0;
 }
 
 .side-nav .sn-avatar-wrapper.extend {
-	padding-left: 18%;
-	padding-right: 22%;
+    padding-left: 18%;
+    padding-right: 22%;
 }
 
 .side-nav .about.extend {
@@ -36,58 +36,97 @@
 }
 
 .navbar.navbar-toggleable-md.extend {
-  display: inline-block;
-  float: none;
-  text-align: center;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
 
 p.nav__text--margin {
-	margin-bottom: 0;
-	margin-top: 5px;
+    margin-bottom: 0;
+    margin-top: 5px;
     font-size: 1.2em;
 }
 
-.fixed-sn main, .hidden-sn main.main__padding--top--size {
-    padding-top: 3rem; 
+.fixed-sn main,
+.hidden-sn main.main__padding--top--size {
+    padding-top: 3rem;
 }
 
 .panel-title {
-  margin: 0;
+    margin: 0;
 }
 
 i .btn__icon--size {
-   /* width: inherit;
+    /* width: inherit;
     text-align: center;*/
     font-size: 2rem;
 }
 
 .card__panel--margin--bottom {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .card__p--margin--top12 {
-  margin-bottom: 0;
-  margin-top: 12px;
+    margin-bottom: 0;
+    margin-top: 12px;
 }
 
 .card__p--margin--adjust {
-  margin-bottom: 0;
-  margin-top: 4px;
+    margin-bottom: 0;
+    margin-top: 4px;
 }
 
 .side-nav .collapsible a.nav__anchor--resize {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 #contact li {
-
-  display: inline-block;
+    display: inline-block;
 }
+
+.list-inline-item.ulist__li--no-right-margin {
+    margin-right: 0;
+}
+
+.section .section-description-left-align {
+    color: #757575;
+    margin-bottom: 4rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card--padding--left240 {
+    padding-left: 240px;
+    height: 100vh;
+}
+
+.bg-skin-lp {
+    background-image: url('img/mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1.intro-hello {
+  font-family: Roboto;
+  font-size: 5em;
+}
+
+.fa.fa-comment-raise {
+    padding: 0;
+}
+
+.fa-comment-o.fa-comment-raise {
+    position: relative;
+    top: -.7em;
+}
+
 /*.h4--nowrap {
   white-space: nowrap;
 }*/
