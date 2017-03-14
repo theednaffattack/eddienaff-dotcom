@@ -140,13 +140,13 @@ html,
 body,
 header,
 .view {
-    height: 100%;
+    height: 100vh;
 }
 
 @media (min-width: 1200px) {
     .card--padding--left240 {
         padding-left: 240px;
-        /*height: 100vh;*/
+        height: 100vh;
     }
 }
 
