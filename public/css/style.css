@@ -100,10 +100,10 @@ i .btn__icon--size {
     margin-right: 15%;
 }
 
-.card--padding--left240 {
+/*.card--padding--left240 {
     padding-left: 240px;
     height: 100vh;
-}
+}*/
 
 .bg-skin-lp {
     background-image: url('img/mountains.jpg');
@@ -114,8 +114,8 @@ i .btn__icon--size {
 }
 
 h1.intro-hello {
-  font-family: Roboto;
-  font-size: 5em;
+    font-family: Roboto;
+    font-size: 5em;
 }
 
 .fa.fa-comment-raise {
@@ -127,6 +127,17 @@ h1.intro-hello {
     top: -.7em;
 }
 
+
 /*.h4--nowrap {
   white-space: nowrap;
 }*/
+
+@media (min-width: 1200px) {
+    .card--padding--left240 {
+        padding-left: 240px;
+        height: 100vh;
+    }
+}
+
+
+}
