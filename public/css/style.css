@@ -106,7 +106,7 @@ i .btn__icon--size {
 }*/
 
 .bg-skin-lp {
-    background-image: url('img/mountains.jpg');
+    background-image: url('public/img/mountains.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
