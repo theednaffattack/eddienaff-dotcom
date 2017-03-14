@@ -56,6 +56,8 @@ p.nav__text--margin {
     padding-top: 3rem; 
 }
 
+.panel-title {
+  margin: 0;
 }
 
 i .btn__icon--size {
@@ -63,3 +65,29 @@ i .btn__icon--size {
     text-align: center;*/
     font-size: 2rem;
 }
+
+.card__panel--margin--bottom {
+  margin-bottom: 3rem;
+}
+
+.card__p--margin--top12 {
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.card__p--margin--adjust {
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.side-nav .collapsible a.nav__anchor--resize {
+  font-size: 1rem;
+}
+
+#contact li {
+
+  display: inline-block;
+}
+/*.h4--nowrap {
+  white-space: nowrap;
+}*/

@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/font-mfizz/css/font-mfizz.css" />
+    <!-- endbower -->
     <style>
     .bg-skin-lp {
         background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%2823%29.jpg');
@@ -56,13 +59,13 @@
             <!-- Side navigation links -->
             <li>
                 <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
-                    <li><a href="#projects" class="collapsible-header waves-effect"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
+                    <li><a href="#projects" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
                     </li>
-                    <li><a href="#experience" class="collapsible-header waves-effect"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
+                    <li><a href="#experience" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
                     </li>
-                    <li><a href="#skills" class="collapsible-header waves-effect"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
+                    <li><a href="#skills" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
                     </li>
-                    <li><a href="#contact" class="collapsible-header waves-effect"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                    <li><a href="#contact" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
                     </li>
                 </ul>
             </li>
@@ -152,14 +155,119 @@
                 <!--/First row-->
             </section>
             <!--/Section: Projects-->
-            <hr class="between-sections">
+            <hr class="between-sections" id="experience">
             <!--Section: Experience-->
-            <section class="section extra-margins" id="experience">
+            <section class="section extra-margins">
                 <!--Section heading-->
-                <h1 class="wow fadeIn" data-wow-delay="0.2s">Experience</h1>
-                <hr class="between-sections">
-                <!--Section description-->
-                <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                <h1 class="wow fadeIn text-center" data-wow-delay="0.2s">Experience</h1>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <!--Experience Panel 1-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Hawk Ridge Systems</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '15 - Nov '16</em></p>
+                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Full Stack Web Developer</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                        <p class="card__p--margin--top12">Full Stack Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Full-stack developer responsible for builds in ExpressionEngine and application integration between and ExpressionEngine, Marketo, and Netsuite. Subscribed to modern workflows including automation via grunt, and version control via Git.</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        4 Orinda Way, Orinda, CA 94563 | (877) 266-4469
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 1-->
+                        <!--Experience Panel 2-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">ClearSlide</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Feb '14 - Apr '15</em></p>
+                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Marketing Operations Specialist</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                        <p class="card__p--margin--top12">Marketing Operations Specialist</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Data cleaning, data gathering in Salesforce and Marketo. Creation of server side JavaScript code for back office automation.</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        45 Fremont St, San Francisco, CA | (877) 360-3366
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 2-->
+                        <!--Experience Panel 3-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Premier Staffing Inc.</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '13 - Feb '14</em></p>
+                                        <p class="hidden-sm-up red-text card__p--margin--adjust">various tech. and admin</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  red-text">
+                                        <p class="card__p--margin--top12">various tech. and admin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Various tech. and SFDC admin assignments usually encompassing data management, testing and coding.</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        353 Sacramento St #1800 | (415) 362-2211
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 3-->
+                        <!--Experience Panel 4-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">California Administrative Office of the Courts</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '13 - Jun '14</em></p>
+                                        <p class="hidden-sm-up red-text card__p--margin--adjust">Risk Management Analyst II</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  red-text">
+                                        <p class="card__p--margin--top12">Risk Management Analyst II</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Initiated the design and implementation of the asset permit module, an in-house customization of the Computer Aided Facilities Management (CAFM) system using Excel, Access, and VBScript. Created and managed the Asbestos Management Program and database for statewide asbestos compliance in California’s courthouses. Created Injury and Illness Prevention database in support of the AOC IIPP program</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        455 Golden Gate Ave, San Francisco, CA 94102 | (415) 865-4200
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 4-->
+                    </div>
+                </div>
             </section>
             <!--/Section: Experience-->
             <hr class="between-sections">
@@ -179,48 +287,42 @@
                 <h1 class="wow fadeIn" data-wow-delay="0.2s">Contact</h1>
                 <hr class="between-sections">
                 <!--Section description-->
-                <p class="section-description wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+                    <ul class="text-center">
+                        <li>
+                            <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a></li>
+                        <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
+                        <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
             </section>
             <!--/Section: Contact-->
         </div>
     </main>
     <!--/Main layout-->
-    <!--Footer-->
-    <footer class="page-footer center-on-small-only">
-        <!--Social buttons-->
-        <div class="social-section wow fadeIn" data-wow-delay="0.3s">
-            <ul>
-                <li><a href="https://github.com/theednaffattack" class="btn-floating btn-small btn-git"><i class="fa fa-github btn__icon--size"> </i></a></li>
-                <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="btn-floating btn-small btn-li"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
-                <li><a href="https://twitter.com/theednaffattack" target="_blank" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter fa-1_7x"> </i></a></li>
-            </ul>
-        </div>
-        <!--/.Social buttons-->
-        <!--Copyright-->
-        <div class="footer-copyright">
-            <div class="container-fluid">
-                © 2017 Copyright: <a href="http://www.eddienaff.com"> Eddie Naff </a>
-            </div>
-        </div>
-        <!--/.Copyright-->
-    </footer>
-    <!--/.Footer-->
     <!-- SCRIPTS -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/tether.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $(".button-collapse").sideNav({
-                closeOnClick: true,
-                hide: true
-            });
-            
-            $("#nav-mobile li").click(function() { $('.button-collapse').sideNav('hide'); });
+    $(document).ready(function() {
+        $(".button-collapse").sideNav({
+            closeOnClick: true,
+            hide: true
         });
 
+        $("#nav-mobile li").click(function() {
+            $('.button-collapse').sideNav('hide');
+        });
+    });
     </script>
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/materialize/bin/materialize.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/trianglify/dist/trianglify.min.js"></script>
+    <!-- endbower -->
 </body>
 
 </html>
