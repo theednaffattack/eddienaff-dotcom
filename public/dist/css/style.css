@@ -23,6 +23,11 @@
     border: 2px solid #e0e0e0;
 }
 
+img.avatar-wrapper-extend {
+    max-width: 140px;
+    border: 2px solid #e0e0e0;
+}
+
 .side-nav .sn-avatar-wrapper.extend {
     padding-left: 18%;
     padding-right: 22%;
@@ -183,7 +188,7 @@ ul.intro__ul--social--margins {
     }
     .sn-avatar-wrapper.extend {
         padding-top: 1rem;
-        padding-left: 22%;
+        padding-left: 29%;
         padding-right: 22%;
         margin-bottom: 1.5rem;
     }
