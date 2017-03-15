@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-    
 </head>
 
 <body class="fixed-sn navy-blue-skin">
@@ -21,7 +20,7 @@
         <!-- Sidebar navigation -->
         <ul id="slide-out" class="side-nav fixed sn-bg-1 custom-scrollbar">
             <!-- Logo -->
-            <li>
+            <li class="hidden-lg-down">
                 <div class="logo-wrapper waves-light sn-avatar-wrapper extend">
                     <a href="#">
                         <img src="img/me_again.jpg" class="rounded-circle avatar-wrapper-extend">
@@ -30,7 +29,7 @@
             </li>
             <!--/. Logo -->
             <!--About-->
-            <li>
+            <li class="hidden-lg-down">
                 <div class="about extend">
                     <p class="nav__name--size">Eddie Naff</p>
                     <p class="nav__title--size">Web Developer</p>
@@ -38,7 +37,7 @@
             </li>
             <!--/.About-->
             <!--Social-->
-            <li>
+            <li class="hidden-lg-down">
                 <ul class="social">
                     <li><a href="https://github.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github fa-1_7x"> </i></a></li>
                     <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
@@ -49,6 +48,7 @@
             <!-- Side navigation links -->
             <li>
                 <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
+                    <li>&nbsp;</li>
                     <li><a href="#about-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-user fa-2x" aria-hidden="true"></i></span> About</a>
                     </li>
                     <li><a href="#projects-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
@@ -76,22 +76,35 @@
             </div>
         </nav>
         <!--/.Navbar-->
-
         <!-- Section: About w/ Mask -->
         <div class="view hm-black-strong" id="about-link">
-                    <div class="full-bg-img flex-center">
-                        <div class="container">
-                            <div class="row" id="home">
-                            <!--Card-->
-                            <div class="card-overlay card--padding--left240 z-depth-0">
+            <div class="full-bg-img flex-center">
+                <div class="container">
+                    <div class="row" id="home">
+                        <!--Card-->
+                        <div class="card-overlay z-depth-0">
+                            <!--Content-->
+                            <div class="white-text text-center">
+                                <div class="card-block col-md-12">
+                                    <h1 class="intro-hello hidden-lg-down">Hello. <i class="fa fa-comment-o fa-comment-raise"></i></h1>
+                                    <div class="row">
 
-                                <!--Content-->
-                                <div class="white-text text-center">
-                                    <div class="card-block">
-                                    <p class="section-description"><h1 class="intro-hello">Hello. <i class="fa fa-comment-o fa-comment-raise"></i></h1></p>
-                                        
-                        <p class="section-description-left-align text-fluid">I'm Eddie Naff, a fullstack web developer.</p><p class="section-description-left-align text-fluid">I create apps using NodeJS coupled with ReactJS and / or AngularJS front-end frameworks.</p>
-                        <p class="section-description-left-align text-fluid"> I enjoy making apps that are <em>lean, functional, and stylish.</p>
+
+                                        <div class="logo-wrapper sn-avatar-wrapper extend hidden-sm-up col-xs-12 col-md-6 offset-md-4">
+                                            <img src="img/me_again.jpg" class="rounded-circle avatar-wrapper-extend">
+                                        </div>
+
+
+                                    </div>
+                                    <!--/. Logo -->
+                                    <!--About-->
+                                    <div class="about extend hidden-sm-up">
+                                        <h2>Eddie Naff</h2>
+                                        <h2 class="h2-responsive">Full Stack Web Developer</h2>
+                                    </div>
+                                    <div>
+                                        <p class="text-fluid"> I enjoy making apps that are <em>lean, functional,</em> and <em>stylish</em>.</p>
+                                        </div>
 
                                         <p class="smooth-scroll"><a href="#projects-link"><i class="fa fa-angle-down fa-3x white-text"></i></a></p>
                                     </div>
@@ -198,7 +211,7 @@
                                 </div>
                             </div>
                             <div class="card-block">
-                                <p class="card-text">Full-stack developer responsible for builds in ExpressionEngine and application integration between and ExpressionEngine, Marketo, and Netsuite. Subscribed to modern workflows including automation via grunt, and version control via Git.</p>
+                                <p class="card-text">Full Stack developer responsible for builds in ExpressionEngine and application integration between and ExpressionEngine, Marketo, and Netsuite. Subscribed to modern workflows including automation via grunt, and version control via Git.</p>
                             </div>
                             <div class="card-data grey lighten-4 black-text">
                                 <div class="row flex-center">
@@ -289,85 +302,85 @@
                         <!--/.Experience Panel 4-->
                     </div>
                 </div>
-            </section>
-            <!--/Section: Experience-->
-            <hr class="between-sections" id="skills-link">
-            <!--Section: Skills-->
-            <section class="section extra-margins" id="skills">
-                <!--Section heading-->
-                <h1 class="wow fadeIn" data-wow-delay="0.2s">Skills</h1>
-                <hr class="between-sections">
-                <!--Section description-->
-                <div>
-                    <ul class="list-inline row text-center">
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-html5-alt fa-5x"></i>
-                            <p>HTML5</p>
-                        </li>
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-css3-alt fa-5x"></i>
-                            <p>CSS3</p>
-                        </li>
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-nodejs fa-5x"></i>
-                            <p>NodeJS</p>
-                        </li>
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-javascript-alt fa-5x"></i>
-                            <p>JavaScript</p>
-                        </li>
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-reactjs fa-5x"></i>
-                            <p>ReacJS</p>
-                        </li>
-                        <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-angular fa-5x"></i>
-                            <p>Angular 1.*</p>
-                        </li>
-                        <li class="list-inline-item  ulist__li--no-right-margin col-sm-3"><i class="icon-git fa-5x"></i>
-                            <p>Git</p>
-                        </li>
+                </section>
+                <!--/Section: Experience-->
+                <hr class="between-sections" id="skills-link">
+                <!--Section: Skills-->
+                <section class="section extra-margins" id="skills">
+                    <!--Section heading-->
+                    <h1 class="wow fadeIn" data-wow-delay="0.2s">Skills</h1>
+                    <hr class="between-sections">
+                    <!--Section description-->
+                    <div>
+                        <ul class="list-inline row text-center">
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-html5-alt fa-5x"></i>
+                                <p>HTML5</p>
+                            </li>
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-css3-alt fa-5x"></i>
+                                <p>CSS3</p>
+                            </li>
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-nodejs fa-5x"></i>
+                                <p>NodeJS</p>
+                            </li>
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-javascript-alt fa-5x"></i>
+                                <p>JavaScript</p>
+                            </li>
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-reactjs fa-5x"></i>
+                                <p>ReacJS</p>
+                            </li>
+                            <li class="list-inline-item ulist__li--no-right-margin col-xs-6 col-sm-3"><i class="icon-angular fa-5x"></i>
+                                <p>Angular 1.*</p>
+                            </li>
+                            <li class="list-inline-item  ulist__li--no-right-margin col-sm-3"><i class="icon-git fa-5x"></i>
+                                <p>Git</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--/Section: Skills-->
+                <hr class="between-sections" id="contact-link">
+                <!--Section: Contact-->
+                <section class="section extra-margins" id="contact">
+                    <!--Section heading-->
+                    <h1 class="wow fadeIn" data-wow-delay="0.2s">Contact</h1>
+                    <hr class="between-sections">
+                    <!--Section description-->
+                    <ul class="text-center">
+                        <li>
+                            <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a></li>
+                        <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
+                        <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-                </div>
-            </section>
-            <!--/Section: Skills-->
-            <hr class="between-sections" id="contact-link">
-            <!--Section: Contact-->
-            <section class="section extra-margins" id="contact">
-                <!--Section heading-->
-                <h1 class="wow fadeIn" data-wow-delay="0.2s">Contact</h1>
-                <hr class="between-sections">
-                <!--Section description-->
-                <ul class="text-center">
-                    <li>
-                        <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a></li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a></li>
-                    <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
-                    <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-            </section>
-            <!--/Section: Contact-->
-        </div>
-    </main>
-    <!--/Main layout-->
-    <!-- SCRIPTS -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/tether.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $(".button-collapse").sideNav({
-            closeOnClick: true,
-            hide: true
-        });
+                </section>
+                <!--/Section: Contact-->
+            </div>
+            </main>
+            <!--/Main layout-->
+            <!-- SCRIPTS -->
+            <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+            <script type="text/javascript" src="js/tether.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/mdb.min.js"></script>
+            <script>
+            $(document).ready(function() {
+                $(".button-collapse").sideNav({
+                    closeOnClick: true,
+                    hide: true
+                });
 
-        $("#nav-mobile li").click(function() {
-            $('.button-collapse').sideNav('hide');
-        });
-    });
-    </script>
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/materialize/bin/materialize.js"></script>
-    <script src="bower_components/d3/d3.js"></script>
-    <script src="bower_components/trianglify/dist/trianglify.min.js"></script>
-    <!-- endbower -->
+                $("#nav-mobile li").click(function() {
+                    $('.button-collapse').sideNav('hide');
+                });
+            });
+            </script>
+            <!-- bower:js -->
+            <script src="bower_components/jquery/dist/jquery.js"></script>
+            <script src="bower_components/materialize/bin/materialize.js"></script>
+            <script src="bower_components/d3/d3.js"></script>
+            <script src="bower_components/trianglify/dist/trianglify.min.js"></script>
+            <!-- endbower -->
 </body>
 
 </html>

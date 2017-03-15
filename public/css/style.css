@@ -129,7 +129,6 @@ h1.intro-hello {
 }
 
 .view {
-
     background: url('https://eddienaff.com/img/gg-bridge.jpg')no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -138,12 +137,27 @@ h1.intro-hello {
     /*background-color: 0 0 0 0.1;*/
 }
 
-
 html,
 body,
 header,
 .view {
     height: 100vh;
+}
+
+.table--fluid-height {
+    height: 100%;
+}
+
+.my-object.equal {
+    font-size: 5rem;
+}
+
+.my-object.bracket {
+    font-size: 1.5rem;
+}
+
+.my-object.text {
+    font-size: 1.5rem;
 }
 
 @media (min-width: 1200px) {
@@ -158,5 +172,11 @@ header,
     .view {
         height: 100vh;
         position: relative;
+    }
+    .sn-avatar-wrapper.extend {
+        padding-top: 1rem;
+        padding-left: 22%;
+        padding-right: 22%;
+        margin-bottom: 1.5rem;
     }
 }
