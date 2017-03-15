@@ -107,7 +107,7 @@ i .btn__icon--size {
 }*/
 
 .bg-skin-lp {
-    background-image: url('public/img/mountains.jpg');
+    background-image: url('http://localhost:8080/img/mountains.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -129,12 +129,15 @@ h1.intro-hello {
 }
 
 .view {
-    background: url('../img/gg-bridge.jpg')no-repeat center center fixed;
+
+    background: url('https://eddienaff.com/img/gg-bridge.jpg')no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /*background-color: 0 0 0 0.1;*/
 }
+
 
 html,
 body,
@@ -153,7 +156,7 @@ header,
 @media (max-width: 768px) {
     .full-bg-img,
     .view {
-        height: auto;
+        height: 100vh;
         position: relative;
     }
 }
