@@ -159,6 +159,15 @@ header,
     font-size: 1.5rem;
 }
 
+/* top -- right -- bottom -- left */
+ul.intro__ul--social--margins {
+  margin: 2rem 2rem 1rem 1rem;
+}
+
+.social .fa {
+    color: #fff;
+}
+
 @media (min-width: 1200px) {
     .card--padding--left240 {
         padding-left: 240px;
