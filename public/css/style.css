@@ -164,13 +164,24 @@ header,
     font-size: 1.5rem;
 }
 
+
 /* top -- right -- bottom -- left */
+
 ul.intro__ul--social--margins {
-  margin: 2rem 2rem 1rem 1rem;
+    margin: 2rem 2rem 1rem 1rem;
 }
 
 .social .fa {
     color: #fff;
+}
+
+.list__li-style-type li {
+    list-style-type: disc;
+}
+
+.list__li-style-type {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media (min-width: 1200px) {
