@@ -18,6 +18,8 @@ Frontend
 
   * [Clementine FCC Boilerplate - MERN setup (w/ Redux)] (https://libraries.io/github/Em-Ant/clementinejs-react-redux)
 
+  * [Clementine-React-Redux MERN Stack Boilerplate - Unofficial Fork](https://github.com/Em-Ant/clementinejs-react-redux)
+
   * [Another version of MERN (looks janky)] (https://jokeyrhyme.github.io/2016/07/25/quick-react-and-redux-bootstrap-example.html)
 
 Backend
