@@ -37,7 +37,7 @@
             </li>
             <!--/.About-->
             <!--Social-->
-            <li class="hidden-lg-down">
+            <li class="hidden-lg-down intro__ul--social--margins mx-auto social">
                 <ul class="social">
                     <li><a href="https://github.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github fa-1_7x"> </i></a></li>
                     <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
@@ -49,15 +49,15 @@
             <li>
                 <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
                     <li>&nbsp;</li>
-                    <li><a href="#about-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-user fa-2x" aria-hidden="true"></i></span> About</a>
+                    <li class="smooth-scroll"><a href="#about-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-user fa-2x" aria-hidden="true"></i></span> About</a>
                     </li>
-                    <li><a href="#projects-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
+                    <li class="smooth-scroll"><a href="#projects-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
                     </li>
-                    <li><a href="#experience-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
+                    <li class="smooth-scroll"><a href="#experience-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
                     </li>
-                    <li><a href="#skills-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
+                    <li class="smooth-scroll"><a href="#skills-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
                     </li>
-                    <li><a href="#contact-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                    <li class="smooth-scroll"><a href="#contact-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
                     </li>
                 </ul>
             </li>
@@ -99,7 +99,7 @@
                                         <h2 class="h2-responsive">Full Stack Web Developer</h2>
                                     </div>
                                     <!--Social-->
-                                    <ul class="list-inline hidden-sm-up intro__ul--social--margins social">
+                                    <ul class="list-inline hidden-sm-up intro__ul--social--margins mx-auto social">
                                         <li class="list-inline-item"><a href="https://github.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github fa-1_7x"> </i></a></li>
                                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
                                         <li class="list-inline-item"><a href="https://twitter.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter fa-1_7x"> </i></a></li>
@@ -122,16 +122,16 @@
     <!-- /.Double navigation -->
     <!--Main layout-->
     <main class="main__padding--top--size">
-    <a id="projects-link"></a>
         <div class="container-fluid">
+            <hr class="between-sections border-transparent" id="projects-link">
             <!--Section: Projects-->
             <section class="section extra-margins">
                 <!--Section heading-->
-                <h1 class="text-center">Projects</h1>
+                <h1 class="text-center section-header-bottom-margin">Projects</h1>
                 <!--First row-->
                 <div class="row">
                     <!--First column-->
-                    <div class="col-md-4 mb-r">
+                    <div class="col-md-6 mb-r">
                         <!--Featured image-->
                         <div class="view overlay hm-white-slight mb-3">
                             <img src="img/hrs-homepage.jpg">
@@ -140,15 +140,51 @@
                             </a>
                         </div>
                         <!--Excerpt-->
-                        <h5 class="blue-text"><i class="fa fa-map " aria-hidden="true"></i>Adventure</h5>
+                        <!-- Chip tags -->
+                        <ul class="list-inline hidden-sm-down">
+                            <!-- HTML chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-html5">
+                                    <span class="white-text"><i class="icon-html5-alt"></i> HTML</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- CSS chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-css3">
+                                    <span class="white-text"><i class="icon-css3-alt"></i> CSS</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- Bootstrap chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip deep-purple darken-3">
+                                    <span class="white-text"> Bootstrap</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- JQuery chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip teal darken-1">
+                                    <span class="white-text"> jQuery</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                        </ul>
+                        <!-- /.Chip tags -->
                         <h4>Hawk Ridge Systems</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
-                        <a class="btn btn-primary ">Read more</a>
+                        <p>Hawk Ridge Systems is a reseller of the popular SOLIDWORKS 3D design software.  The purpose of the site was to be both informational and functional with paths to training calendars, event registrations, customer support and ticketing, ecommerce, and social media channels.  Content was managed by ExpressionEngine, a PHP-based CMS.  The app also possessed back-end integration with Marketo and NetSuite CRM.</p>
+                        <ul class="list-inline text-center">
+                            <!-- CTA buttons -->
+                            <!-- <li class="list-inline-item"><a class="btn btn-primary" role="button">Read more</a></li> -->
+                            <li class="list-inline-item"><a href="http://www.hawkridgesys.com" class="btn btn-warning" role="button" target="_blank">View Site &nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a> </li>
+                            <!-- /.CTA buttons -->
+                        </ul>
                     </div>
                     <!--/First column-->
                     <hr class="p-col">
                     <!--Second column-->
-                    <div class="col-md-4 mb-r">
+                    <div class="col-md-6 mb-r">
                         <!--Featured image-->
                         <div class="view overlay hm-white-slight mb-3">
                             <img src="img/swx2017-homepage.jpg">
@@ -157,30 +193,49 @@
                             </a>
                         </div>
                         <!--Excerpt-->
-                        <h5 class="red-text"><i class="fa fa-heart " aria-hidden="true"></i>Friendship</h5>
+                        <!-- Chip tags -->
+                        <ul class="list-inline hidden-sm-down">
+                            <!-- HTML chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-html5">
+                                    <span class="white-text"><i class="icon-html5-alt"></i> HTML</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- CSS chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-css3">
+                                    <span class="white-text"><i class="icon-css3-alt"></i> CSS</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- Bootstrap chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip deep-purple darken-3">
+                                    <span class="white-text"> Bootstrap</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- JQuery chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip teal darken-1">
+                                    <span class="white-text"> jQuery</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                        </ul>
+                        <!-- /.Chip tags -->
                         <h4>SOLIDWORKS 2017 Mini-site</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
-                        <a class="btn btn-primary ">Read more</a>
+                        <p>The SOLIDWORKS 2017 mini-site is a seasonal launching managed by Hawk Ridge to detail upcoming changes to the SOLIDWORKS software platform.  This project was cross-coordinated with Marketing / Sales planning to synergize live event-based marketing with a series of livestream webinars. The site was highly functional with back-end app integration with Marketo for marketing and event scheduling.</p>
+                        <ul class="list-inline text-center">
+                            <!-- CTA buttons -->
+                            <!-- <li class="list-inline-item"><a class="btn btn-primary" role="button">Read more</a></li> -->
+                            <li class="list-inline-item"><a class="btn btn-warning disabled" role="button">View Site &nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                            <!-- /.CTA buttons -->
+                        </ul>
                     </div>
                     <!--/Second column-->
                     <hr class="p-col">
-                    <!--Third column-->
-                    <div class="col-md-4 mb-r">
-                        <!--Featured image-->
-                        <div class="view overlay hm-white-slight mb-3">
-                            <img src="https://mdbootstrap.com/images/regular/people/img%20(66).jpg">
-                            <a>
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--Excerpt-->
-                        <h5 class="teal-text "><i class="fa fa-fire " aria-hidden="true"></i>Animals</h5>
-                        <h4>You're the best friend for your dog.</h4>
-                        <p>by <a><strong>John Doe</strong></a>, 21.06.2016</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quidem minima incidunt vel impedit commodi ducimus eaque saepe sed sapiente totam omnis, eos nostrum recusandae fugit. Eos fuga, atque.</p>
-                        <a class="btn btn-primary ">Read more</a>
-                    </div>
-                    <!--/Third column-->
                 </div>
                 <!--/First row-->
             </section>
@@ -189,7 +244,7 @@
             <!--Section: Experience-->
             <section class="section extra-margins">
                 <!--Section heading-->
-                <h1 class="text-center">Experience</h1>
+                <h1 class="text-center section-header-bottom-margin">Experience</h1>
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <!--Experience Panel 1-->
@@ -579,7 +634,7 @@
             <!--Section: Skills-->
             <section class="section extra-margins" id="skills">
                 <!--Section heading-->
-                <h1 class="text-center">Skills</h1>
+                <h1 class="text-center section-header-bottom-margin">Skills</h1>
                 <!--Section description-->
                 <div>
                     <ul class="list-inline row text-center">
@@ -623,7 +678,7 @@
             <!--Section: Contact-->
             <section class="section extra-margins" id="contact-link">
                 <!--Section heading-->
-                <h1 class="text-center">Contact</h1>
+                <h1 class="text-center section-header-bottom-margin">Contact</h1>
                 <!--Section description-->
                 <div class="text-center">
                     <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a>

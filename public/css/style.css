@@ -14,6 +14,22 @@
     font-size: 1.7em;
 }
 
+.border-transparent {
+    border-color: transparent;
+}
+
+.section-header-bottom-margin {
+    margin-bottom: 2.5rem;
+}
+
+.color-html5 {
+    background-color: #e44d26;
+}
+
+.color-css3 {
+    background-color: #2162af;
+}
+
 .side-nav .logo-wrapper.extend {
     height: 164px;
 }
