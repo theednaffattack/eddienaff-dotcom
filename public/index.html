@@ -12,25 +12,684 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-    
 </head>
 
 <body class="fixed-sn navy-blue-skin">
-    
-
-<!--Mask-->
-        <div class="view intro hm-black-strong" id="home" style="background-image:url('img/plaza.jpg')">
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <ul id="slide-out" class="side-nav fixed sn-bg-1 custom-scrollbar">
+            <!-- Logo -->
+            <li class="hidden-lg-down">
+                <div class="logo-wrapper waves-light sn-avatar-wrapper extend">
+                    <a href="#">
+                        <img src="img/me_again.jpg" class="rounded-circle avatar-wrapper-extend">
+                    </a>
+                </div>
+            </li>
+            <!--/. Logo -->
+            <!--About-->
+            <li class="hidden-lg-down">
+                <div class="about extend">
+                    <p class="nav__name--size">Eddie Naff</p>
+                    <p class="nav__title--size">Web Developer</p>
+                </div>
+            </li>
+            <!--/.About-->
+            <!--Social-->
+            <li class="hidden-lg-down intro__ul--social--margins mx-auto social">
+                <ul class="social">
+                    <li><a href="https://github.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github fa-1_7x"> </i></a></li>
+                    <li><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
+                    <li><a href="https://twitter.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter fa-1_7x"> </i></a></li>
+                </ul>
+            </li>
+            <!--/Social-->
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion smooth-scroll" id="nav-mobile">
+                    <li>&nbsp;</li>
+                    <li class="smooth-scroll"><a href="#about-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-user fa-2x" aria-hidden="true"></i></span> About</a>
+                    </li>
+                    <li class="smooth-scroll"><a href="#projects-link" class="collapsible-header waves-effect nav__anchor--resize"><span style="vertical-align: baseline;"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></span> Projects</a>
+                    </li>
+                    <li class="smooth-scroll"><a href="#experience-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> Experience</a>
+                    </li>
+                    <li class="smooth-scroll"><a href="#skills-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-star fa-2x" aria-hidden="true"></i> Skills</a>
+                    </li>
+                    <li class="smooth-scroll"><a href="#contact-link" class="collapsible-header waves-effect nav__anchor--resize"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
+            <div class="sidenav-bg mask-strong"></div>
+        </ul>
+        <!--/. Sidebar navigation -->
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-toggleable-md extend navbar-dark scrolling-navbar double-nav hidden-sm-up text-center">
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+            <div class="text-center">
+                <p class="nav__text--margin">Eddie Naff</p>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+        <!-- Section: About w/ Mask -->
+        <div class="view hm-black-strong" id="about-link">
             <div class="full-bg-img flex-center">
-                <div class="container smooth-scroll">
-                    <div class="col-md-12 text-center pt-3 wow fadeIn" data-wow-delay="0.2s">
-                        <h1 class="white-text brand-name font-up font-bold">Eddie Naff</h1>
-                        <h2 class="white-text">Full Stack Web Developer</h2>
+                <div class="container">
+                    <div class="row" id="home">
+                        <!--Card-->
+                        <div class="card-overlay card--padding--left240 z-depth-0">
+                            <!--Content-->
+                            <div class="white-text text-center">
+                                <div class="card-block col-md-12">
+                                    <h1 class="intro-hello hidden-lg-down">Hello. <i class="fa fa-comment-o fa-comment-raise"></i></h1>
+                                    <div class="row">
+                                        <div class="logo-wrapper sn-avatar-wrapper extend hidden-sm-up col-xs-12 col-md-6 offset-md-4">
+                                            <img src="img/me_again.jpg" class="rounded-circle avatar-wrapper-extend">
+                                        </div>
+                                    </div>
+                                    <!--/. Logo -->
+                                    <!--About-->
+                                    <div class="about extend hidden-sm-up">
+                                        <h2>Eddie Naff</h2>
+                                        <h2 class="h2-responsive">Full Stack Web Developer</h2>
+                                    </div>
+                                    <!--Social-->
+                                    <ul class="list-inline hidden-sm-up intro__ul--social--margins mx-auto social">
+                                        <li class="list-inline-item"><a href="https://github.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-github fa-1_7x"> </i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/eddienaff/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-1_7x"> </i></a></li>
+                                        <li class="list-inline-item"><a href="https://twitter.com/theednaffattack" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter fa-1_7x"> </i></a></li>
+                                    </ul>
+                                    <!--/Social-->
+                                    <div>
+                                        <p class="text-fluid"> I enjoy making apps that are <em>lean, functional,</em> and <em>stylish</em>.</p>
+                                    </div>
+                                    <p class="smooth-scroll"><a href="#projects-link"><i class="fa fa-angle-down fa-3x white-text"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Card-->
                     </div>
                 </div>
             </div>
         </div>
-        <!--/.Mask-->
-    
+        <!-- /.Section: About w/ Mask -->
+    </header>
+    <!-- /.Double navigation -->
+    <!--Main layout-->
+    <main class="main__padding--top--size">
+        <div class="container-fluid">
+            <hr class="between-sections border-transparent" id="projects-link">
+            <!--Section: Projects-->
+            <section class="section extra-margins">
+                <!--Section heading-->
+                <h1 class="text-center section-header-bottom-margin">Projects</h1>
+                <!--First row-->
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-6 mb-r">
+                        <!--Featured image-->
+                        <div class="view overlay hm-white-slight mb-3">
+                            <img src="img/hrs-homepage.jpg">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <!-- Chip tags -->
+                        <ul class="list-inline hidden-sm-down">
+                            <!-- HTML chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-html5">
+                                    <span class="white-text"><i class="icon-html5-alt"></i> HTML</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- CSS chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-css3">
+                                    <span class="white-text"><i class="icon-css3-alt"></i> CSS</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- Bootstrap chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip deep-purple darken-3">
+                                    <span class="white-text"> Bootstrap</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- JQuery chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip teal darken-1">
+                                    <span class="white-text"> jQuery</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                        </ul>
+                        <!-- /.Chip tags -->
+                        <h4>Hawk Ridge Systems</h4>
+                        <p>Hawk Ridge Systems is a reseller of the popular SOLIDWORKS 3D design software.  The purpose of the site was to be both informational and functional with paths to training calendars, event registrations, customer support and ticketing, ecommerce, and social media channels.  Content was managed by ExpressionEngine, a PHP-based CMS.  The app also possessed back-end integration with Marketo and NetSuite CRM.</p>
+                        <ul class="list-inline text-center">
+                            <!-- CTA buttons -->
+                            <!-- <li class="list-inline-item"><a class="btn btn-primary" role="button">Read more</a></li> -->
+                            <li class="list-inline-item"><a href="http://www.hawkridgesys.com" class="btn btn-warning" role="button" target="_blank">View Site &nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a> </li>
+                            <!-- /.CTA buttons -->
+                        </ul>
+                    </div>
+                    <!--/First column-->
+                    <hr class="p-col">
+                    <!--Second column-->
+                    <div class="col-md-6 mb-r">
+                        <!--Featured image-->
+                        <div class="view overlay hm-white-slight mb-3">
+                            <img src="img/swx2017-homepage.jpg">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <!-- Chip tags -->
+                        <ul class="list-inline hidden-sm-down">
+                            <!-- HTML chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-html5">
+                                    <span class="white-text"><i class="icon-html5-alt"></i> HTML</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- CSS chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip color-css3">
+                                    <span class="white-text"><i class="icon-css3-alt"></i> CSS</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- Bootstrap chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip deep-purple darken-3">
+                                    <span class="white-text"> Bootstrap</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                            <!-- JQuery chip tag -->
+                            <li class="list-inline-item">
+                                <div class="chip teal darken-1">
+                                    <span class="white-text"> jQuery</span>
+                                </div>
+                            </li>
+                            <!-- /.HTML chip tag -->
+                        </ul>
+                        <!-- /.Chip tags -->
+                        <h4>SOLIDWORKS 2017 Mini-site</h4>
+                        <p>The SOLIDWORKS 2017 mini-site is a seasonal launching managed by Hawk Ridge to detail upcoming changes to the SOLIDWORKS software platform.  This project was cross-coordinated with Marketing / Sales planning to synergize live event-based marketing with a series of livestream webinars. The site was highly functional with back-end app integration with Marketo for marketing and event scheduling.</p>
+                        <ul class="list-inline text-center">
+                            <!-- CTA buttons -->
+                            <!-- <li class="list-inline-item"><a class="btn btn-primary" role="button">Read more</a></li> -->
+                            <li class="list-inline-item"><a class="btn btn-warning disabled" role="button">View Site &nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                            <!-- /.CTA buttons -->
+                        </ul>
+                    </div>
+                    <!--/Second column-->
+                    <hr class="p-col">
+                </div>
+                <!--/First row-->
+            </section>
+            <!--/.Section: Projects-->
+            <hr class="between-sections" id="experience-link">
+            <!--Section: Experience-->
+            <section class="section extra-margins">
+                <!--Section heading-->
+                <h1 class="text-center section-header-bottom-margin">Experience</h1>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <!--Experience Panel 1-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Hawk Ridge Systems</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '15 - Nov '16</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Full Stack Web Developer</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Full Stack Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Full Stack developer responsible for builds in ExpressionEngine and application integration between and ExpressionEngine, Marketo, and Netsuite. Subscribed to modern workflows including automation via grunt, and version control via Git.</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        4 Orinda Way, Orinda, CA 94563 | (877) 266-4469
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 1-->
+                        <!--Experience Panel 2-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">ClearSlide</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Feb '14 - Apr '15</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Marketing Operations Specialist</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Marketing Operations Specialist</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Data cleaning, data gathering in Salesforce and Marketo</li>
+                                        <li>Creation of server side JavaScript code for back office automation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        45 Fremont St, San Francisco, CA | (877) 360-3366
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 2-->
+                        <!--Experience Panel 3-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Premier Staffing Inc.</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '13 - Feb '14</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">various tech. and admin</p>
+                                    </div>
+                                    <div class="col-md-6 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">various tech. and admin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <p class="card-text">Various tech. and SFDC admin assignments usually encompassing data management, testing and coding.</p>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        353 Sacramento St #1800 | (415) 362-2211
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 3-->
+                        <!--Experience Panel 4-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">California Administrative Office of the Courts</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '10 - Jun '13</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Risk Management Analyst II</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Risk Management Analyst II</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Coordinated project activities among the Risk Management, Facilities Management, and Construction Management units as well as several 3rd party construction related vendors</li>
+                                        <li>Maintained and communicate project schedules and current statuses</li>
+                                        <li>Responsible for the creation and management of databases used for Risk Analysis, new construction issues, and asbestos management</li>
+                                        <li>Responsible for cataloging and managing elevator assets and OSHA elevator compliance for facitlities managment</li>
+                                        <li>Tracked incidents involving injury and property damage in California courthouses for future safety programs and administration of claim payments</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        455 Golden Gate Ave, San Francisco, CA 94102 | (415) 865-4200
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 4-->
+                        <!--Experience Panel 5-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">California Pacific Medical Center Research Institute</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Aug '08 - Feb '10</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Inventory Analyst (contract)</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Inventory Analyst (contract)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Conducted regular counts of medical equipment inventory for CPMC’s new surgical training center</li>
+                                        <li>Analyzed trends in ordering and equipment turnover to prevent waste</li>
+                                        <li>Assisted in the development of new inventory policies for the San Francisco CPMC network of hospitals</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        475 Brannan St, San Francisco, CA 94107<!-- | (415) 600-1600 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 5-->
+                        <!--Experience Panel 6-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Orange County Transportation Authority</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Dec '07 - Jun '08</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Commuter Rail Services Intern</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Commuter Rail Services Intern</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Gathered data for long-term planning projects</li>
+                                        <li>Analyzed rider surveys on customer needs and requirements</li>
+                                        <li>Assisted in the development of new policies and procedures</li>
+                                        <li>Provided clerical support for the associate and senior transportation analysts</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        550 S Main St, Orange, CA 92868
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 6-->
+                        <!--Experience Panel 7-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">City of Costa Mesa</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Oct '06 - Aug '07</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Planning and Zoning Intern</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Planning and Zoning Intern</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Evaluation of environmental impact reports</li>
+                                        <li>Assembled staff reports regarding minor zoning adjustments, and conditional use permits</li>
+                                        <li>Gave direct assistance to community members at the planning counter, over the telephone</li>
+                                        <li>Conducted field investigations and background research of current and proposed projects</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        77 Fair Dr, Costa Mesa, CA 92626
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 7-->
+                        <!--Experience Panel 8-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">DBI Beverage Distributing</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>May '05 - Aug '06</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Accounting / Customer Service</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Accounting / Customer Service</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Provided quality customer service for incoming calls from beverage retailers for next day</li>
+                                        <li>Performed data entry on the AS/400 system for next day orders</li>
+                                        <li>Monitored and maintained automated inventory systems including reporting and receiving</li>
+                                        <li>Reviewed order practices and history to take advantage of seasonal bulk ordering discounts</li>
+                                        <li>Performed general accounting duties including: resolving monthly profits and loss, footing records of deposit totals, analyzed reports and ledgers for accuracy, and matched inventory</li>
+                                        <li>Received and verified cash receipts from returning drivers</li>
+                                        <li>Prepared daily deposit for armored truck pickup</li>
+                                        <li>Performed accounting and inventory of discount beverages for chain grocery stores</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        2225 Jerrold Ave, San Francisco, CA 94124 <span class="text-muted">(now closed)</span><!--  | (415) 643-9900 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 8-->
+                        <!--Experience Panel 9-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Sephora.com</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Oct '01 - May '04</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Customer Service Representative</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Customer Service Representative</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Provided quality customer service for incoming phone calls and emails in the customer service call center for nationwide catalog orders and website difficulty</li>
+                                        <li>Placed new orders for customers, resolved shipping issues and maintained back office</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        525 Market St, San Francisco, CA 94105<!--  | (877) 737-4672 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 9-->
+                        <!--Experience Panel 10-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">AppraisalHub.com</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jun '00 - Oct '01</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Front End Developer</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Front End Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Sole user interface designer for the core company product, AppraisalHub.com</li>
+                                        <li>Designed and maintained back office Access Database providing seamless continuity between</li>
+                                        <li>Responsible for all aspects of content creation, development, and maintenance</li>
+                                        <li>Successfully managed the creation of multiple Rapid Application Development (RAD) prototypes for channel marketing, integrated third parties vendor applications and components contracted to the company, and developed, AppraisalHub Best Practices, an inhouse guidance document for developing and deploying content within the company’s existing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        440 N Canal St, South San Francisco, CA 94080
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 10-->
+                        <!--Experience Panel 11-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">Total Media</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Apr '99 - Jun '00</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Front End Developer</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Front End Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Principle engineer and web producer responsible for Website creation and management of website services for Total Media and their portfolio clients.</li>
+                                        <li>Supported all application and content development activities including all aspects of, development of start to finish web media solutions from conception to deployment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        1801 F St, Bakersfield, CA 93301
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 11-->
+                        <!--Experience Panel 12-->
+                        <div class="card card__panel--margin--bottom">
+                            <div class="card-header grey lighten-2">
+                                <div class="row">
+                                    <div class="col-md-8 text-left">
+                                        <h4 class="panel-title h4-responsive h4--nowrap">The Bakersfield Californian</h4>
+                                        <p class="text-muted card__p--margin--adjust"><em>Jan '97 - Apr '99</em></p>
+                                        <p class="hidden-sm-up teal-text card__p--margin--adjust">Front End Developer / Graphic Designer</p>
+                                    </div>
+                                    <div class="col-md-4 text-right hidden-lg-down  teal-text">
+                                        <p class="card__p--margin--top12">Front End Developer / Graphic Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-text">
+                                    <ul class="list__li-style-type">
+                                        <li>Responsible for online production of The Bakersfield Californian daily newspaper including project management, content development, and content management</li>
+                                        <li>Successfully managed all aspects of the content creation lifecycle</li>
+                                        <li>Lead design efforts and created employee interfaces for several internal business units on the company’s intranet as well as several of the company’s portfolio clients</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-data grey lighten-4 black-text">
+                                <div class="row flex-center">
+                                    <div class="col-12 text-left">
+                                        1707 Eye St, Bakersfield, CA 93301 <!--  | (661) 395-7500 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Experience Panel 12-->
+                    </div>
+                </div>
+            </section>
+            <!--/Section: Experience-->
+            <hr class="between-sections" id="skills-link">
+            <!--Section: Skills-->
+            <section class="section extra-margins" id="skills">
+                <!--Section heading-->
+                <h1 class="text-center section-header-bottom-margin">Skills</h1>
+                <!--Section description-->
+                <div>
+                    <ul class="list-inline row text-center">
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-html5-alt fa-5x" style="color: #e44d26;"></i>
+                            <p>HTML5</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-css3-alt fa-5x" style="color: #2162af;"></i>
+                            <p>CSS3</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-javascript-alt fa-5x" style="color: #e5a229;"></i>
+                            <p>JavaScript</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-reactjs fa-5x" style="color: #00d8ff;"></i>
+                            <p>ReactJS</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-angular fa-5x" style="color: #b52e31;"></i>
+                            <p>Angular 1.*</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-nodejs fa-5x" style="color: #83cd29;"></i>
+                            <p>NodeJS</p>
+                        </li>
+                        <li class="list-inline-item ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-mongodb fa-5x" style="color: #69b23f;"></i>
+                            <p>MongoDB</p>
+                        </li>
+                        <li class="list-inline-item  ulist__li--no-right-margin col-4 col-md-3">
+                            <i class="icon-git fa-5x" style="color: #f34f29;"></i>
+                            <p>Git</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--/Section: Skills-->
+            <hr class="between-sections" id="contact-link">
+            <!--Section: Contact-->
+            <section class="section extra-margins" id="contact-link">
+                <!--Section heading-->
+                <h1 class="text-center section-header-bottom-margin">Contact</h1>
+                <!--Section description-->
+                <div class="text-center">
+                    <a href="https://github.com/theednaffattack" type="button" class="btn-floating btn-large btn-git"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/eddienaff/" type="button" class="btn-floating btn-large btn-li"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/theednaffattack" type="button" class="btn-floating btn-large btn-tw"><i class="fa fa-twitter"></i></a>
+                    <a href="mailto:eddienaff@gmail.com" type="button" class="btn-floating btn-large btn-email"><i class="fa fa-envelope"></i></a></li>
+                </div>
+            </section>
+            <!--/Section: Contact-->
+        </div>
+    </main>
     <!--/Main layout-->
     <!-- SCRIPTS -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
