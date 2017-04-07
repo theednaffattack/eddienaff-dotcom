@@ -14,7 +14,7 @@
     font-size: 1.7em;
 }
 
-.border-transparent {
+.hr__border--transparent {
     border-color: transparent;
 }
 
@@ -22,11 +22,11 @@
     margin-bottom: 2.5rem;
 }
 
-.color-html5 {
+.chip__color--html5 {
     background-color: #e44d26;
 }
 
-.color-css3 {
+.chip__color--css3 {
     background-color: #2162af;
 }
 
@@ -191,12 +191,10 @@ ul.intro__ul--social--margins {
     color: #fff;
 }
 
-.list__li-style-type li {
-    list-style-type: disc;
-}
-
-.list__li-style-type {
-    padding-left: 20px;
+ul.list__li-style-type li {
+    list-style: disc outside none !important; 
+    margin-left: 2.5rem;
+    padding-left: 10px;
     padding-right: 20px;
 }
 

@@ -175,14 +175,13 @@ ul.intro__ul--social--margins {
     color: #fff;
 }
 
-.list__li-style-type li {
-    list-style-type: disc;
-}
-
-.list__li-style-type {
+section .list__li-style-type {
+    list-style: disc outside none;
+    margin-left: 1rem;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 @media (min-width: 1200px) {
     .card--padding--left240 {
